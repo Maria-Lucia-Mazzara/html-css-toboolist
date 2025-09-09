@@ -20,20 +20,13 @@
 body {
     margin: 0;
     font-family: Arial;
-    sans-serif;
-    background-color: var(--colore-body);
-    color: var(--colore-testo);
+    font-family: sans-serif;
+    background-color: #f6f8f9;
+    color: #444851;
 
 
 }
 
-header {
-    background-color: var(--colore-header);
-    padding: 1rem 2rem;
-
-
-
-}
 
 .logo {
     height: 70px;
@@ -61,10 +54,8 @@ header {
 /*main contenitore*/
 
 .quadrato_contenitore {
-    width: 80%;
     background-color: #ffffff;
-    margin: 20px 20px 2px 20px;
-    padding: 15px;
+    margin-left: 20px;
 
 
 }
@@ -102,9 +93,8 @@ header {
 /*inizio New Task*/
 
 .quadrato_contenitore2 {
-    width: 80%;
     background-color: #ffffff;
-    margin: 0px 20px 20px 20px;
+    margin-left: 20px;
 }
 
 .spazi {
@@ -148,9 +138,8 @@ header {
 /*inizio Today*/
 
 .quadrato_contenitore3 {
-    width: 80%;
     background-color: #ffffff;
-    margin: 0px 20px 0px 20px;
+    margin-left: 20px;
 }
 
 .spazi {
@@ -158,6 +147,7 @@ header {
     font-size: 18px;
     font-weight: bold;
     color: var(--colore-testo);
+    margin-left: 60px;
 }
 
 .task {
