@@ -26,6 +26,8 @@ body {
 
 header {
     background-color: var(--colore-header);
+    padding: 1rem 2rem;
+
 
 
 }
@@ -39,6 +41,20 @@ header {
 .logotipo {
     vertical-align: middle;
     color: var(--colore-logo);
+    font-size: 70px;
+    border-radius: 50%;
 
 
 }
+
+.contenitore {
+    margin: auto;
+    width: 80;
+}
+
+main {
+
+    background-color: var(--colore-main);
+
+}
+
