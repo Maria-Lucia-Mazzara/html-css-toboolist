@@ -19,7 +19,8 @@
 
 body {
     margin: 0;
-    font-family: Arial; sans-serif;
+    font-family: Arial;
+    sans-serif;
     background-color: var(--colore-body);
     color: var(--colore-testo);
 
@@ -46,7 +47,7 @@ header {
     font-size: 70px;
     border-radius: 50%;
     margin-left: 10px;
-    
+
 
 }
 
@@ -57,8 +58,9 @@ header {
 
 /*fine header*/
 
+/*main contenitore*/
 
-.quadrato_contenitore{
+.quadrato_contenitore {
     width: 80%;
     background-color: #ffffff;
     margin: 20px 20px 2px 20px;
@@ -78,7 +80,7 @@ header {
     height: 30px;
     display: inline-block;
     margin: 20px 1px 5px 60px;
-    
+
 }
 
 .batton2 {
@@ -92,8 +94,13 @@ header {
     height: 30px;
     display: inline-block;
     margin: 20px 0px 5px 1px;
-    
+
 }
+
+/*fine main contenitore*/
+
+/*inizio New Task*/
+
 .quadrato_contenitore2 {
     width: 80%;
     background-color: #ffffff;
@@ -101,29 +108,29 @@ header {
 }
 
 .spazi {
-padding-left: 70px;
-  font-size: 18px;
-  font-weight: bold;
-  color: var(--colore-testo);
+
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--colore-testo);
 }
 
 .task {
-  padding-top: 10px;
-  font-size: 15px;
+    padding-top: 10px;
+    font-size: 15px;
 }
 
-.check{
+.check {
     background-color: #ffffff;
     color: #64c0a9;
     border-color: #64c0a9;
     font-size: 12px;
     border-radius: 50%;
     display: inline-block;
-   
+
 }
 
 .battonblu {
-     background-color: var(--bottone-blu);
+    background-color: var(--bottone-blu);
     border: #000000 1px;
     color: #ffffff;
     font-size: 12px;
@@ -133,5 +140,51 @@ padding-left: 70px;
     width: 90px;
     height: 40px;
     display: inline-block;
-    
+
+}
+
+/*fine new task*/
+
+/*inizio Today*/
+
+.quadrato_contenitore2 {
+    width: 80%;
+    background-color: #ffffff;
+    margin: 0px 20px 20px 20px;
+}
+
+.spazi {
+
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--colore-testo);
+}
+
+.task {
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.check {
+    background-color: #ffffff;
+    color: #64c0a9;
+    border-color: #64c0a9;
+    font-size: 12px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.battonblu {
+    background-color: var(--bottone-blu);
+    border: #000000 1px;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 40%;
+    margin-left: 3px;
+    padding: 1px;
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+
 }
