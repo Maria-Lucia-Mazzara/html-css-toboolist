@@ -108,14 +108,30 @@ padding-left: 70px;
 }
 
 .task {
+  padding-top: 10px;
   font-size: 15px;
 }
 
 .check{
-    padding-top: 90px;
-    color: var(--icona-verde);
+    background-color: #ffffff;
+    color: #64c0a9;
+    border-color: #64c0a9;
+    font-size: 12px;
+    border-radius: 50%;
+    display: inline-block;
+   
 }
 
-.etichetta{
-    padding-left: 20px;
+.battonblu {
+     background-color: var(--bottone-blu);
+    border: #000000 1px;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 40%;
+    margin-left: 3px;
+    padding: 1px;
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+    
 }
