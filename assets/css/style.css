@@ -43,8 +43,6 @@ header {
     color: var(--colore-logo);
     font-size: 70px;
     border-radius: 50%;
-
-
 }
 
 .contenitore {
@@ -52,9 +50,33 @@ header {
     width: 80;
 }
 
-main {
 
-    background-color: var(--colore-main);
+
+.quadrato_contenitore{
+    width: 80%;
+    background-color: #ffffff;
+    margin: 60px 100px;
 
 }
 
+.batton{
+    background-color: var(--bottone-blu);
+    border: #000000 1px;
+    color: #ffffff;
+    font-size: 11px;
+    border-radius: 10%;
+    width: 70px;
+    height: 30px;
+    margin: 20px 20px 20px 20px;
+}
+
+.batton2 {
+    background-color: var(--bottone-blu);
+    border: #000000 1px;
+    color: #ffffff;
+    font-size: 11px;
+    border-radius: 10%;
+    width: 70px;
+    height: 30px;
+    margin: 20px 20px 20px 20px;
+}
