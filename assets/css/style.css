@@ -1,0 +1,44 @@
+:root {
+    --bottone-blu: #47adf1;
+    --botttone-viola: #9d73e4;
+    --bottone-verde: #64c0a9;
+    --bottone-arancio: #f29e33;
+    --bottone-rosa: #d863a1;
+    --bottone-lime: #b0c926;
+    --icona-rossa: #ef8682;
+    --icona-verde: #8ed3c5;
+    --colore-body: #f6f8f9;
+    --colore-header: #ffffff;
+    --colore-main: #ffffff;
+    --colore-testo: #444851;
+    --colore-logo: #000000;
+
+}
+
+
+
+body {
+    margin: 0;
+    background-color: var(--colore-body);
+
+
+}
+
+header {
+    background-color: var(--colore-header);
+
+
+}
+
+.logo {
+    height: 70px;
+    vertical-align: middle;
+
+}
+
+.logotipo {
+    vertical-align: middle;
+    color: var(--colore-logo);
+
+
+}
