@@ -147,10 +147,10 @@ header {
 
 /*inizio Today*/
 
-.quadrato_contenitore2 {
+.quadrato_contenitore3 {
     width: 80%;
     background-color: #ffffff;
-    margin: 0px 20px 20px 20px;
+    margin: 0px 20px 0px 20px;
 }
 
 .spazi {
@@ -174,10 +174,123 @@ header {
     display: inline-block;
 
 }
+.cross {
+    background-color: #ffffff;
+    color: var(--icona-rossa);
+    border-color: 1px --icona-rossa;
+    font-size: 12px;
+    border-radius: 50%;
+    display: inline-block;
 
-.battonblu {
-    background-color: var(--bottone-blu);
-    border: #000000 1px;
+}
+.battonviola {
+    background-color: #9d73e4;
+    border: 1px #9d73e4;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 40%;
+    margin-left: 3px;
+    padding: 1px;
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+
+}
+.battonverde {
+    background-color: #64c0a9;
+    border: 1px #64c0a9;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 40%;
+    margin-left: 3px;
+    padding: 1px;
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+
+}
+.battonverde {
+    background-color: #64c0a9;
+    border: 1px #64c0a9;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 40%;
+    margin-left: 3px;
+    padding: 1px;
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+
+}
+.battonarancio {
+    background-color: #f29e33;
+    border: 1px #f29e33;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 40%;
+    margin-left: 3px;
+    padding: 1px;
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+
+}
+/*fine Today*/
+
+/*inizio Upcoming*/
+
+.quadrato_contenitore3 {
+    width: 80%;
+    background-color: #ffffff;
+    margin: 0px 20px 0px 20px;
+}
+
+.spazi {
+
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--colore-testo);
+}
+
+.task {
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.check {
+    background-color: #ffffff;
+    color: #64c0a9;
+    border-color: #64c0a9;
+    font-size: 12px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.cross {
+    background-color: #ffffff;
+    color: var(--icona-rossa);
+    border-color: 1px --icona-rossa;
+    font-size: 12px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.battonrosa {
+    background-color: #d863a1;
+    border: 1px #d863a1;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 40%;
+    margin-left: 3px;
+    padding: 1px;
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+
+}
+.battonlime {
+    background-color: #b0c926;
+    border: 1px #b0c926;
     color: #ffffff;
     font-size: 12px;
     border-radius: 40%;
